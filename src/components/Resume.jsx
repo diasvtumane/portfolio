@@ -11,8 +11,18 @@ const Resume = () => {
                 {/* Header */}
                 <div className="border-b pb-4 mb-6">
                     <h1 className="text-3xl font-bold">Dias Burkitbayev</h1>
-                    <h3 className="text-lg text-gray-500">Software Engineer, AI/ML Concentration, Frontend Development</h3>
+                    <h3 className="text-lg text-gray-500">
+                        Software Engineer, AI/ML Concentration, Frontend Development
+                    </h3>
                     <div className="mt-2 flex flex-wrap gap-4 text-gray-700">
+                        {/* Download Button */}
+                        <a
+                            href="/resume.pdf"
+                            download
+                            className="px-4 py-2 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700"
+                        >
+                            Download Resume
+                        </a>
                     </div>
                 </div>
 
@@ -65,7 +75,6 @@ const Resume = () => {
                         </li>
                     </ul>
                 </div>
-
 
                 {/* Education */}
                 <div>
