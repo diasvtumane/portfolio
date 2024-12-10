@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://diasvtumane.github.io/portfolio",
+  "homepage": "/",
   "dependencies": {
     "framer-motion": "^11.13.3",
     "gsap": "^3.12.5",
