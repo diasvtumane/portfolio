@@ -51,11 +51,21 @@ const Resume = () => {
                 <div className="mb-6">
                     <h3 className="text-xl font-bold border-b pb-2">Skills</h3>
                     <ul className="list-disc list-inside mt-2 text-gray-700">
-                        <li>Python, Java, JavaScript, SQL </li>
-                        <li>HTML/CSS, C#, React.js, Node.js, Express.js</li>
-                        <li>Unity, MongoDB, Google Cloud, AWS, Git</li>
+                        {/* Programming Languages */}
+                        <li>
+                            <strong>Programming Languages:</strong> Python, Java, JavaScript, SQL, C#, HTML/CSS
+                        </li>
+                        {/* Frameworks and Libraries */}
+                        <li>
+                            <strong>Frameworks/Libraries:</strong> React.js, Node.js, Express.js
+                        </li>
+                        {/* Tools and Platforms */}
+                        <li>
+                            <strong>Tools/Platforms:</strong> Unity, MongoDB, Google Cloud, AWS, Git, Docker
+                        </li>
                     </ul>
                 </div>
+
 
                 {/* Education */}
                 <div>
