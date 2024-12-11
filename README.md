@@ -1,4 +1,3 @@
-Portfolio Website
 This is the source code for my personal portfolio website. It showcases my skills, projects, and experience as a software engineer, with a focus on AI, web development, and innovative solutions.
 
 Features
