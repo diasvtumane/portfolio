@@ -40,8 +40,13 @@ const Projects = () => {
             className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition"
           >
             {project.link ? (
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <h3 className="text-2xl font-bold mb-2 text-blue-600 hover:underline">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-gray-700"
+              >
+                <h3 className="text-2xl font-bold mb-2 hover:underline">
                   {project.title}
                 </h3>
               </a>
