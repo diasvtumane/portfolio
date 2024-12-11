@@ -3,20 +3,27 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
-      title: "Resume Builder",
+      title: "Resume Builder (private)",
       description: "A web app for creating professional resumes.",
     },
     {
       title: "Lost Rooms of Purdue",
       description: "A Unity-based virtual reality game.",
+      link: "https://github.com/JacsonPadgett/cs460-project", 
     },
     {
-      title: "Legal AI",
+      title: "Legal AI (private)",
       description: "AI tool to help with legal work",
     },
     {
-      title: "Telegram Bots",
-      description: "Few bots to help with everyday tasks",
+      title: "Movie Recommendation Telegram Bot",
+      description: "ML trained bot to give you movie suggestions",
+      link: "https://github.com/diasvtumane/movie_recommendation", 
+    },
+    {
+      title: "Portfolio",
+      description: "My portfolio website",
+      link: "https://github.com/diasvtumane/portfolio", 
     },
   ];
 
@@ -32,7 +39,15 @@ const Projects = () => {
             key={index}
             className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition"
           >
-            <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
+            {project.link ? (
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <h3 className="text-2xl font-bold mb-2 text-blue-600 hover:underline">
+                  {project.title}
+                </h3>
+              </a>
+            ) : (
+              <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
+            )}
             <p className="text-gray-600">{project.description}</p>
           </div>
         ))}
