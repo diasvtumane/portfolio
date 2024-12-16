@@ -60,7 +60,7 @@ const Projects = () => {
           </div>
         ))}
 
-        {/* Add Tic Tac Toe as an interactive project */}
+        {/* Added Tic Tac Toe as an interactive project */}
         <div
           className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition"
         >

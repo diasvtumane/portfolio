@@ -67,7 +67,7 @@ const Resume = () => {
                         </li>
                         {/* Frameworks and Libraries */}
                         <li>
-                            <strong>Frameworks/Libraries:</strong> React.js, Node.js, Express.js
+                            <strong>Frameworks/Libraries:</strong> React.js, Node.js, Express.js, Tailwind
                         </li>
                         {/* Tools and Platforms */}
                         <li>
