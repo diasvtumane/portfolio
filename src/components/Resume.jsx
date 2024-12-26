@@ -12,7 +12,7 @@ const Resume = () => {
                 <div className="border-b pb-4 mb-6">
                     <h1 className="text-3xl font-bold">Dias Burkitbayev</h1>
                     <h3 className="text-lg text-gray-500">
-                        Software Engineer, AI/ML Concentration, Frontend Development
+                        Growth Engineer
                     </h3>
                     <div className="mt-2 flex flex-wrap gap-4 text-gray-700">
                         {/* Download Button */}
@@ -38,10 +38,19 @@ const Resume = () => {
                 <div className="mb-6">
                     <h3 className="text-xl font-bold border-b pb-2">Employment History</h3>
                     <div className="mt-4">
+                        <h4 className="text-lg font-semibold">Growth Engineer, HockeyStack</h4>
+                        <p className="text-gray-500">Jan 2025 – Present | San Francisco</p>
+                        <p className="text-gray-700">
+                            Building automation for customer success and sales teams. Working with the marketing team for custom applications.
+                            <br />
+                            <span className="font-bold">Skills:</span> SQL, RestAPI, Javascript
+                        </p>
+                    </div>
+                    <div className="mt-4">
                         <h4 className="text-lg font-semibold">AI/Flex Developer, Aga Pito Studios, LLC</h4>
                         <p className="text-gray-500">Aug 2023 – May 2024 | Fort Wayne</p>
                         <p className="text-gray-700">
-                            Developing a VR game using Unity as part of my Senior Capstone Project.
+                            Developed a VR game using Unity as part of my Senior Capstone Project.
                             <br />
                             <span className="font-bold">Skills:</span> Unity, Python, C#, ML Toolkit, Raspberry Pi, Jira, GitHub
                         </p>
