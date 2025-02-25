@@ -38,12 +38,12 @@ const Resume = () => {
                 <div className="mb-6">
                     <h3 className="text-xl font-bold border-b pb-2">Employment History</h3>
                     <div className="mt-4">
-                        <h4 className="text-lg font-semibold">Growth Engineer, HockeyStack</h4>
+                        <h4 className="text-lg font-semibold">Product Engineer, HockeyStack</h4>
                         <p className="text-gray-500">Jan 2025 – Present | San Francisco</p>
                         <p className="text-gray-700">
                             Building automation for customer success and sales teams. Working with the marketing team for custom applications.
                             <br />
-                            <span className="font-bold">Skills:</span> SQL, RestAPI, Javascript
+                            <span className="font-bold">Skills:</span> SQL, RestAPI, Javascript, React.js, Node.js, AWS, Docker, Git
                         </p>
                     </div>
                     <div className="mt-4">
