@@ -12,7 +12,7 @@ const Resume = () => {
                 <div className="border-b pb-4 mb-6">
                     <h1 className="text-3xl font-bold">Dias Burkitbayev</h1>
                     <h3 className="text-lg text-gray-500">
-                        Growth Engineer
+                        Product Engineer
                     </h3>
                     <div className="mt-2 flex flex-wrap gap-4 text-gray-700">
                         {/* Download Button */}
